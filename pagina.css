@@ -1,0 +1,83 @@
+<style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .gossip {
+            background-color: #708090;
+        
+        }
+        
+        .fun{
+            background-color:#e7a6e7;
+        }
+        
+        .tech{
+            background-color:#00ffff;
+        }
+        
+        .container img{
+            max-width: 400px;
+            max-height: 150px;
+            width: auto;
+            height: auto;
+        }
+        
+        .container2 img{
+            max-width: 400px;
+            max-height: 150px;
+            width: auto;
+            height: auto;
+        }
+        
+        .fun2 {
+            background-color: #e4b6e4;
+        }
+        
+        .tech2 {
+            background-color: #aaf7f7;
+        }
+
+        h1 {
+            color: white;
+            margin-left: 650px;
+        }
+
+        #entretenimento {
+            color: black;
+        }
+
+        #tecnologias {
+            color: black;
+        }
+
+        .filme1{
+            margin-bottom: 16px;
+            margin-left: 20px;
+        }
+
+        .filme2{
+            margin-bottom: 16px;
+            margin-left: 20px;
+        }
+
+        .filme3{
+            margin-left: 20px;
+        }
+
+        .noticia1{
+            margin-bottom: 16px;
+            margin-left: 20px;
+        }
+
+        .noticia2{
+            margin-bottom: 16px;
+            margin-left: 20px;
+        }
+
+        .noticia3{
+            margin-left: 20px;
+        }
+        </style>
