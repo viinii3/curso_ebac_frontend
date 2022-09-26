@@ -80,4 +80,16 @@
         .noticia3{
             margin-left: 20px;
         }
+
+        button{
+            background-color: #f5deb3;
+        }
+
+        .container{
+            display: flex;
+        }
+
+        .container2{
+            display: flex;
+        }
         </style>
