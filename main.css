@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-image: linear-gradient(to left, rgb(248, 119, 177), rgb(163, 78, 220));
+}
+
+main{
+    background-image: linear-gradient(to left, rgb(248, 119, 177), rgb(163, 78, 220));
+}
+
+.cabecalho h1{
+    justify-content: center;
+    display: flex;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+#imagem{
+    justify-content: center;
+    display: flex;
+    padding-top: 70px;
+}
+
+#imagem img{
+    border-radius: 30px;
+}
+
+form{
+    padding-left: 515px;
+    padding-top: 30px;
+}
+
+.btn{
+    margin-top: 15px;
+    width: 500px;
+    height: 40px;
+}
+
+input{
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+    margin-top: 15px;
+    border: none;
+}
+
+button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-image: linear-gradient(to left, rgb(240, 155, 193), rgb(198, 123, 248));
+}
+
+input:hover{
+    background-image: linear-gradient(to left, rgb(240, 155, 193), rgb(198, 123, 248));
+}
+
+input:focus{
+    outline-color: rgb(163, 78, 220);
+}
+.github img{
+    height: 40px;
+    padding-left: 50px;
+}
+
+footer{
+    background-image: linear-gradient(to left, rgb(248, 119, 177), rgb(163, 78, 220));
+
+}
+
+.github{
+    padding-left: 700px;
+    padding-top: 85px;
+}
+
+
+/*foi usado esses dois tipos de estilizaçao para tirar as setas do input type number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
