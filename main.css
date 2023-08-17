@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(130, 255, 213);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(93, 207, 169);
+}
+
+.formulario{
+    padding-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.formulario input{
+    margin-top: 20px;
+    width: 350px;
+    height: 25px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(93, 207, 169);
+    padding: 20px 40%;
+    border-radius: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

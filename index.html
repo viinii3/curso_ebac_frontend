@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefa Puglins Jquery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Preencha o Formulário</h1>
+    </header>
+    <main>
+        <div class="formulario">
+            <form>
+                <label>Nome:</label>
+                <input type="text">
+                <br>
+                <label>Email:</label>
+                <input type="email">
+                <br>
+                <label>Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+                <br>
+                <label for="cpf">CPF:</label>
+                <input type="text" class="cpf-mascara" id="cpf" maxlength="14">
+                <br>
+                <label>Endereço:</label>
+                <input type="text">
+                <br>
+                <label>CEP:</label>
+                <input type="text" class="cep-mascara" name="cep">
+                <br>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./jquery.mask.min.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
