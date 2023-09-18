@@ -1,0 +1,21 @@
+.container{
+    background-color: aquamarine;
+    margin-top: 200px;
+    border-radius: 30px;
+}
+
+.container h1{
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid black;
+}
+
+.form-label{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
