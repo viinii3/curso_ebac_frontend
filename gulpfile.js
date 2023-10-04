@@ -5,7 +5,7 @@ const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 
 function compilaSass(){
-    return gulp.src('./source/styles/main.scss')
+    return gulp.src('./main.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({
             outputStyle: 'compressed'
@@ -15,13 +15,13 @@ function compilaSass(){
 }
 
 function comprimeJS(){
-    return gulp.src('./source/scripts/*.js')
+    return gulp.src('./*.js')
     .pipe(uglify())
     .pipe(gulp.dest('./build/scripts'));
 }
 
 function comprimeImagem(){
-    return gulp.src('./source/images/*')
+    return gulp.src('./*.jpg')
     .pipe(imagemin())
     .pipe(gulp.dest('./build/images'))
 }
