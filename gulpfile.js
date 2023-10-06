@@ -31,7 +31,7 @@ exports.javascript = comprimeJS;
 exports.images = comprimeImagem;
 
 exports.default = function(){
-    gulp.watch('./source/styles/*.scss', {ignoreInitial: false}, gulp.series(compilaSass));
-    gulp.watch('./source/scripts/*.js', {ignoreInitial: false}, gulp.series(comprimeJS));
-    gulp.watch('./source/images/*', {ignoreInitial: false}, gulp.series(comprimeImagem));
+    gulp.watch('./*.scss', {ignoreInitial: false}, gulp.series(compilaSass));
+    gulp.watch('./*.js', {ignoreInitial: false}, gulp.series(comprimeJS));
+    gulp.watch('./*.jpg', {ignoreInitial: false}, gulp.series(comprimeImagem));
 }
