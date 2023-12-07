@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    1 = crie uma classe de uma abstração
+
+    2 = crie pelo menos duas classes que sejam herdeiras da classe criada anteriormente
+
+    3 = crie pelo menos 3 instacias de objetos
+
+<script>
+
+//1 = 
+    function Pokemon(nome, tipo, poder) {
+        this.nome = nome;
+        this.tipo = tipo;
+        this.poder = poder;
+    }
+    
+    const pokemonDoVini = new Pokemon('Dratini', 'dragão', 40);
+    console.log(pokemonDoVini);
+
+ //2 =
+    function Veiculo(tipo, modelo, ano){
+        this.tipo = tipo;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    function Veiculo2(tipo, modelo, ano){
+        Veiculo.call(this, tipo, modelo, ano)
+    }
+
+    const veiculoDoVini1 = new Veiculo('carro', 'ka', 2020);
+    const veiculoDoVini2 = new Veiculo2('moto', 'egle', 2023);
+
+    console.log(veiculoDoVini1);
+    console.log(veiculoDoVini2);
+
+//3 =
+
+    const nome = 'vini';
+    const idade = 21;
+    const maiorDeIdade = true;
+
+    const pessoa = {
+        nome: nome,
+        idade: idade,
+        maiorDeIdade: maiorDeIdade
+    }
+
+    console.log(typeof nome);
+    console.log(typeof idade);
+    console.log(typeof maiorDeIdade);
+
+</script>
+</body>
+</html>
